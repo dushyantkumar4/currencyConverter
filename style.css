@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+ body{
+    background-color:#fff;
+ }
+
+nav{
+    font-family:"Noto Sans", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(224,209,245);
+    padding:23px;
+}
+div.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 23px;
+}
+nav ul li{
+    list-style:none;
+    margin:0 23px;
+}
+nav li a{
+    text-decoration:none;
+    color:rgb(2,3,18);
+    transition:all;
+    transition-duration:500ms;
+}
+nav li a:hover{
+    color:rgb(71,24,146);
+}
+nav ul{
+    display: flex;
+   
+}
+
+.container{
+    min-height: 100vh;
+    font-family: "Poppins", serif;
+}
+footer{
+    font-family:"Noto Sans", sans-serif;
+}
